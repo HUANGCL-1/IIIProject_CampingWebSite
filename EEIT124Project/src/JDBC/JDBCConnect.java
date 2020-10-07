@@ -10,7 +10,7 @@ public class JDBCConnect {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try ( Connection conn = DriverManager.getConnection(
-                "jdbc:oracle:thin:@192.168.1.132:1521/XEPDB1","project2", "project2");
+                "jdbc:oracle:thin:@192.168.1.132:1521/XEPDB1","system", "oracle");
 				
         ) {
 		System.out.println("query finished");
